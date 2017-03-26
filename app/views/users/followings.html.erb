@@ -1,0 +1,7 @@
+<h1>レイアウトわかんない</h1>
+
+<h3>フォロー一覧</h3>
+<% @users.each do |user| %>
+  <%= link_to user.name, user %>
+  <br>
+<% end %>
